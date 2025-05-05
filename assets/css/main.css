@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: 'Inter', 'DM Sans', 'sans-serif';
+  --font-family-display: 'Space Grotesk', 'Inter', sans-serif;
+  
+  /* Neobrutalism colors - brighter and more contrasting */
+  --color-primary-50: #f0f4ff;
+  --color-primary-100: #e0e9ff;
+  --color-primary-200: #c7d7fe;
+  --color-primary-300: #a4baff;
+  --color-primary-400: #758bfc;
+  --color-primary-500: #4461ff;
+  --color-primary-600: #2840ff;
+  --color-primary-700: #1c2de0;
+  --color-primary-800: #1f29b5;
+  --color-primary-900: #1e248c;
+  --color-primary-950: #141660;
+  
+  /* Secondary colors - bright green for contrast */
+  --color-secondary-50: #ecfff4;
+  --color-secondary-100: #d0ffe6;
+  --color-secondary-200: #a3ffce;
+  --color-secondary-300: #63ffae;
+  --color-secondary-400: #22ff8c;
+  --color-secondary-500: #00e56b;
+  --color-secondary-600: #00c056;
+  --color-secondary-700: #009245;
+  --color-secondary-800: #027339;
+  --color-secondary-900: #025e31;
+  --color-secondary-950: #003619;
+  
+  /* Neobrutalism accent colors */
+  --color-accent-yellow: #FFF000;
+  --color-accent-orange: #FF6B00;
+  --color-accent-pink: #FF2D92;
+  --color-accent-red: #FF0032;
+  
+  /* Neobrutalism design variables */
+  --border-black: 3px solid #000000;
+  --shadow-neo: 5px 5px 0px 0px #000000;
+  --shadow-neo-sm: 3px 3px 0px 0px #000000;
+  --shadow-neo-lg: 8px 8px 0px 0px #000000;
+}
