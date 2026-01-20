@@ -68,7 +68,7 @@
             <NeoCard bgColor="white" shadow="lg" rounded="none" class="p-4 transform rotate-2">
               <div class="aspect-square bg-gray-900 dark:bg-gray-700 overflow-hidden relative border-black border-3">
                 <div class="absolute inset-0 flex items-center justify-center text-gray-400 dark:text-gray-500">
-                  <NuxtImg src="/me.webp" alt="Mehdi Harzallah" class="w-full h-full object-cover" />
+                  <NuxtImg src="https://cdn.coconutstudio.io/me/me.webp" alt="Mehdi Harzallah" class="w-full h-full object-cover" />
                 </div>
               </div>
               <div class="flex justify-center mt-4">
@@ -591,7 +591,7 @@ function scrollToElement(selector) {
 
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = '/MEHDI-RESUME.pdf';
+  link.href = 'https://cdn.coconutstudio.io/me/Mehdi-Harzallah-CV-2026.pdf';
   link.download = 'Mehdi-Harzallah-Resume.pdf';
   document.body.appendChild(link);
   link.click();
